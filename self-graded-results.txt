@@ -1,0 +1,49 @@
+Desktop View (1024px)
+Alignment/Positioning (3 points)
+
+Book cards are displayed side by side in two columns.
+Content within each book card is split into two sections (image on the left, text on the right).
+The header navigation links and search bar are evenly spaced.
+Footer content is presented in two columns, mirroring the desktop layout screenshot.
+Whitespacing (3 points)
+
+Margins and padding around book cards create proper spacing without overlap.
+Sufficient space exists between the header, body, and footer sections.
+Text within book cards and navigation links are properly aligned with appropriate whitespace.
+Functionality (2 points)
+
+Navigation links change color and underline on hover.
+Buttons change color and cursor pointer appears when hovered over.
+Search bar displays placeholder text and accepts input.
+Colors (1 point)
+
+Provided hex codes (e.g., #A52A2A for buttons and hover effects) are used consistently throughout the project.
+Fonts & Font Sizes (1 point)
+
+"Helvetica" is applied globally, with title text larger than body text and button text smaller but legible.
+Title and Favicon (1 point)
+
+"MyReads" appears in the title bar, and the favicon is properly linked.
+Box Shadows (1 point)
+
+Box shadows around book images match the light slate gray (#778899) specification.
+Icons (1 point)
+
+FontAwesome icons for search, phone, mail, and RSS are correctly implemented and sized consistently with the target site.
+Visual Accuracy (2 points)
+
+No visual defects such as overlapping, missing elements, or typos. All elements resemble the provided screenshots.
+Mobile View (700px)
+Book Cards (2 points)
+
+Book cards stack vertically and maintain the two-column content layout inside each card.
+Header and Footer (1 point)
+
+Navigation items are evenly spaced, and the search bar is placed below the navigation links.
+Footer content continues to be arranged in two columns.
+Viewport Margins (1 point)
+
+Margins are appropriately reduced to fit the 700px width without crowding or overlapping content.
+Whitespace (1 point)
+
+Proper padding and spacing are maintained between book cards, ensuring readability and a clean design.
