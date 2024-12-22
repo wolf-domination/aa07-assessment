@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyReads</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/MyReads/favicon.svg">
+    <link rel="icon" href="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/MyReads/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.css">
 </head>
 <body>
@@ -16,40 +13,47 @@
         <div class="container">
             <h1>MyReads</h1>
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">My Books</a></li>
-                    <li><a href="#">Browse</a></li>
-                    <li><a href="#">Community</a></li>
-                </ul>
+                <a href="#">Home</a>
+                <a href="#">My Books</a>
+                <a href="#">Browse</a>
+                <a href="#">Community</a>
             </nav>
             <div class="search-bar">
-                <input type="text" placeholder="search for a book title">
-                <button><i class="fas fa-search"></i></button>
+                <input type="text" placeholder="Search for a book title">
+                <i class="fas fa-search"></i>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="book-section">
+        <section>
             <h2>Non-Fiction</h2>
-            <div class="book-list">
+            <div class="book-section">
                 <div class="book-card">
-                    <img src="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/MyReads/sample-book-photo-1.png" alt="The Light We Carry">
-                    <div class="book-info">
-                        <h3>The Light We Carry</h3>
-                        <p>by Michelle Obama</p>
-                        <p>When they go low, you write another book...</p>
+                    <div class="book-banner">
+                        <img src="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/MyReads/sample-book-photo-1.png" alt="The Light We Carry">
                         <button>Add to Library</button>
                     </div>
+                    <div class="book-details">
+                        <h3>The Light We Carry</h3>
+                        <p>Michelle Obama</p>
+                        <p class="description">
+                            When they go low, you write another book. In an inspiring follow-up to her bestselling memoir, the former First Lady shares practical wisdom and powerful strategies for staying hopeful through difficult times.
+                        </p>
+                    </div>
                 </div>
+
                 <div class="book-card">
-                    <img src="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/MyReads/sample-book-photo-2.png" alt="Visual Thinking">
-                    <div class="book-info">
-                        <h3>Visual Thinking</h3>
-                        <p>by Temple Grandin</p>
-                        <p>Twenty-five years ago, author and educator...</p>
+                    <div class="book-banner">
+                        <img src="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/MyReads/sample-book-photo-2.png" alt="Visual Thinking">
                         <button>Add to Library</button>
+                    </div>
+                    <div class="book-details">
+                        <h3>Visual Thinking</h3>
+                        <p>Temple Grandin</p>
+                        <p class="description">
+                            Temple Grandin expands on the theme of visual/spatial cognition, intuitive design, and the importance of neurodiverse thinking in solving today's problems.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -57,23 +61,23 @@
     </main>
 
     <footer>
-        <div class="footer-container">
+        <div class="container">
             <div class="footer-section">
-                <h3>COMPANY</h3>
-                <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Terms of Use</a></li>
-                    <li><a href="#">Privacy</a></li>
-                </ul>
+                <h4>COMPANY</h4>
+                <div class="footer-links">
+                    <a href="#">About Us</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Privacy</a>
+                </div>
             </div>
+
             <div class="footer-section">
-                <h3>CONNECT</h3>
-                <div class="icons">
+                <h4>CONNECT</h4>
+                <div class="icon-group">
                     <i class="fas fa-phone"></i>
                     <i class="fas fa-mobile-alt"></i>
                     <i class="fas fa-envelope"></i>
                     <i class="fas fa-rss"></i>
-                    <i class="fas fa-walking"></i>
                 </div>
             </div>
         </div>

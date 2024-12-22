@@ -13,7 +13,7 @@ Text within book cards and navigation links are properly aligned with appropriat
 Functionality (2 points)
 
 Navigation links change color and underline on hover.
-Buttons change color and cursor pointer appears when hovered over.
+Buttons change color and cursor pointer appears when hovered over./Users/jordanpierson/Desktop/aa07-assessment/self-graded-results.txt
 Search bar displays placeholder text and accepts input.
 Colors (1 point)
 
